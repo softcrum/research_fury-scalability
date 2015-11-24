@@ -1,0 +1,157 @@
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+.App {
+    height: 100%;
+    position: relative;
+}
+.App .Console {
+    background-color: #0F0F0F;
+    bottom: 0;
+    height: 175px;
+    position: absolute;
+    left: 0;
+    right: -1px;
+}
+.App .Console-log {}
+.App .Console-terminal {
+    bottom: 0;
+    left: 0;
+    padding: 8px 12px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.App .Console-title {
+    background-color: #E4C652;
+    border-radius: 0 0 5px 0;
+    color: #1C4772;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 10px;
+    text-align: center;
+    width: 200px;
+}
+.App .Container {
+    border-right: 1px solid #C4C4C4;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.App .Header {
+    background-color: #003F81;
+    color: #FFFFFF;
+    height: 50px;
+}
+.App .Header-button {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+}
+.App .Header-button button {
+    font-weight: 700;
+    outline: none;
+    text-transform: uppercase;
+}
+.App .Header-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 0 240px 0 30px;
+}
+.App .Metric {
+    bottom: 175px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.App .Metric .Metric_1 {
+    border-bottom: 1px solid #C4C4C4;
+    border-right: 1px solid #C4C4C4;
+    bottom: 50%;
+    left: 0;
+    position: absolute;
+    right: 50%;
+    top: 0;
+}
+.App .Metric .Metric_2 {
+    border-bottom: 1px solid #C4C4C4;
+    bottom: 50%;
+    left: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.App .Metric .Metric_3 {
+    border-right: 1px solid #C4C4C4;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+}
+.App .Metric .Metric_4 {
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.App .Metric-graphic {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 27px;
+}
+.App .Metric-graphic canvas {
+    margin: 0 auto;
+    padding: 15px 2.5%;
+    width: 100%;
+}
+.App .Metric-title {
+    background-color: #FBF5EF;
+    border-bottom: 1px solid #C4C4C4;
+    font-size: 13px;
+    font-weight: 700;
+    height: 27px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+}
+.App .Status {
+    background-color: #FBF5EF;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 400px;
+}
+.App .Status-title {
+    background-color: #2E6DA4;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 700;
+    height: 27px;
+    left: -1px;
+    line-height: 27px;
+    position: absolute;
+    right: 0;
+}
+.App .Status-title div {
+    text-align: center;
+}
+.App .Wrapper {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}

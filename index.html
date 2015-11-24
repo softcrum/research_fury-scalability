@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caso de Estudio: Fury</title>
+    <!-- Section Load Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="App">
+        <div class="Header">
+            <div class="Header-title">Simulación del Caso de Estudio: Fury de MercadoLibre en Amazon AWS</div>
+            <div class="Header-button">
+                <button class="btn btn-danger">Iniciar Simulación</button>
+            </div>
+        </div>
+        <div class="Container">
+            <div class="Wrapper">
+                <div class="Metric">
+                    <div class="Wrapper">
+                        <div class="Metric_1">
+                            <div class="Wrapper">
+                                <div class="Metric-title">
+                                    Métrica 1 - CPU
+                                </div>
+                                <div class="Metric-graphic">
+                                    <div class="Wrapper">
+                                        <canvas id="MetricCPU" width="730" height="300"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Metric_2">
+                            <div class="Wrapper">
+                                <div class="Metric-title">
+                                    Métrica 2 - Memory
+                                </div>
+                                <div class="Metric-graphic">
+                                    <div class="Wrapper">
+                                        <canvas id="MetricMemory" width="730" height="300"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Metric_3">
+                            <div class="Wrapper">
+                                <div class="Metric-title">
+                                    Métrica 3 - Timeout
+                                </div>
+                                <div class="Metric-graphic">
+                                    <div class="Wrapper">
+                                        <canvas id="MetricTimeout" width="730" height="300"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Metric_4">
+                            <div class="Wrapper">
+                                <div class="Metric-title">
+                                    Métrica 4 - Latency
+                                </div>
+                                <div class="Metric-graphic">
+                                    <div class="Wrapper">
+                                        <canvas id="MetricLatency" width="730" height="300"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Console">
+                    <div class="Wrapper">
+                        <div class="Console-title">
+                            Consola de ejecución
+                        </div>
+                        <div class="Console-terminal">
+                            <div class="Wrapper">
+                                <div class="Console-log"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Status">
+            <div class="Wrapper">
+                <div class="Status-title">
+                    <div class="col-xs-4">
+                        Estado
+                    </div>
+                    <div class="col-xs-2">
+                        Hora
+                    </div>
+                    <div class="col-xs-2">
+                        ACT
+                    </div>
+                    <div class="col-xs-2">
+                        INA
+                    </div>
+                    <div class="col-xs-2">
+                        ESC
+                    </div>
+                </div>
+                <div class="Status-log"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Section Load Scripts -->
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ChartJS.min.js"></script>
+    <script src="js/Traffic.js"></script>
+    <script src="js/Scalability.js"></script>
+    <script src="js/Simulate.js"></script>
+    <script src="js/Function.js"></script>
+</body>
+</html>
